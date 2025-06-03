@@ -1,0 +1,145 @@
+
+*{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    width: 100%;
+    height: 122px;
+    background-color: rgb(0, 210, 198);
+    border-bottom: 1px solid #ffff;
+    align-items: center;
+}
+.nav-logo{
+    width: 100px;
+    height: 90px;
+    padding-top: 20px;
+    padding-left: 25px;
+}
+.nav-logo img{
+    width: 84.7px;
+    height: 75.14px;
+}
+.navbar ul{
+    display: flex;
+    width: 100%;
+    height: 54px;
+    color: white;
+    list-style-type: none;
+    justify-content: flex-end;
+    align-items: center;
+}
+.navbar ul li{
+    display: flex;
+    font-size: 21px;
+    text-transform: uppercase;
+    padding-right: 30px;
+    float: left;
+}
+.social-img{
+    display: flex;
+    width: 266px;
+    height: 36px;
+}
+.social-img img{
+    width: 28px;
+    height: 28px;
+    padding-left: 5px;
+}
+
+.new-7up-banner{
+    width: 100%;
+    height: 606px;
+    background-image: url(https://www.7up.com/images/simple-7up/tropical-header.png);
+    background-size: cover;
+    background-position: center;
+}
+.text-banner h1{
+    text-transform: uppercase;
+    font-family:cursive;
+    font-size: 3.9vw;
+    line-height: 64px;
+    font-weight: 800;
+    color: white;
+    position: absolute;
+    left: 5%;
+    top: 60%;
+    margin-bottom: 32px;
+}
+
+.text-banner a{
+    color: white;
+    border: 2px solid white;
+    border-radius: 25px;
+    width: 175px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 90%;
+    left: 5%;
+}
+
+.recipes-banner{
+    width: 100%;
+    height: 604px;
+    background-image: url(https://www.7up.com/images/simple-7up/image2.png);
+    background-position: center;
+    background-size: cover;
+    padding-top: 200px;
+}
+.content-text{
+    width: 45%;
+    height: 187px;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(10, 91, 43, 0.8);
+    border-radius: 100px;
+    padding: 50px 0px 43px 0px;
+}
+.content-text h1{
+    color: white;
+    text-transform: uppercase;
+}
+.content-text p{
+    color: rgb(250, 250, 240);
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.content-text a{
+    color: white;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 7px 36px;
+    font-family: 19px;
+}
+.flavours-banner{
+    width: 100%;
+    height: 604px;
+    background-image: url(https://www.7up.com/images/simple-7up/image1.png);
+    background-position: center;
+    background-size: cover;
+    padding-top: 200px;
+}
+.footer-1{
+    width: 100%;
+    height: 127px;
+    color: white;
+    background-color: #4d4d4e;
+}
+.footer-1 ul{
+    list-style-type: none;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 220px;
+}
+.footer-1 p{
+    font-size: 12px;
+    text-align: center;
+}
