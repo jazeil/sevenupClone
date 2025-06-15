@@ -61,9 +61,10 @@ body{
     background-position: center;
 }
 .text-banner {
-    position: absolute;
-    left: 5%;
-    top: 60%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
 }
 
 .text-banner h1 {
@@ -74,19 +75,13 @@ body{
     font-weight: 800;
     color: white;
     margin-bottom: 32px;
+    position: relative;
+    left: 5%;
 }
 
 .text-banner a {
-    color: white;
-    border: 2px solid white;
-    border-radius: 25px;
-    width: 175px;
-    height: 42px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     position: absolute;
-    top: 90%;
+    top: 100%;
     left: 5%;
 }
 
@@ -170,27 +165,33 @@ body{
     background-image: url('https://www.7up.com/images/simple-7up/tropical-header-mobile.png');
     background-size: cover;
     background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
   }
   .text-banner {
-    left: 50%;
-    bottom: 20px;
-    transform: translateX(-50%) translateY(25%);
     text-align: center;
-    width: 90%;
+    margin-bottom: 20px;
+    position: relative;
+    top: 20%;
   }
 
   .text-banner h1 {
-      font-size: 6vw;
-      line-height: normal;
-      margin-bottom: 16px;
+    text-transform: uppercase;
+    font-family: cursive;
+    font-size: 6.9vw;
+    line-height: 44px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 32px;
+
+    
   }  
-  .text-banner a {
-      position: static;
-      display: inline-block;
-      width: auto;
-      height: auto;
-      padding: 10px 30px;
-  }
+  /* .text-banner a {
+    display: inline-block;
+    text-align: center;
+  } */
 
 
   .recipes-banner {
