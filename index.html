@@ -5,76 +5,118 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>7up</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="https://media.designrush.com/inspirations/129767/conversions/_1528381466_147_7up-preview.jpg">
 </head>
 <body>
     <header>
-        <div class="navbar">
-            <div class="nav-logo">
-                <img src="https://www.7up.com/images/7up-logo-large.png" alt="logo">
+        <!-- <div class="navbar border-bottom border-2 border-light"> -->
+        <nav class="navbar navbar-expand-md border-bottom border-2 border-light">
+            <div class="container-fluid">
+                <a class="navbar-brand">
+                    <img src="https://www.7up.com/images/7up-logo-large.png" alt="logo" width="85">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
+                    <ul class="navbar-nav text-uppercase">
+                        <li class="nav-item">
+                            <a class="nav-link text-white">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white">Recipes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white">stores</a>
+                        </li>
+                        <!-- <li class="social-img"> -->
+                        <li class="nav-item d-flex align-items-center">
+                            <img src="	https://www.7up.com/images/social-media/socialIcons_facebook.png" class="ms-2" width="28">
+                            <img src="	https://www.7up.com/images/social-media/socialIcons_instagram.png" class="ms-2" width="28">
+                            <img src="https://www.7up.com/images/social-media/socialIcons_tiktok.png" class="ms-2" width="28">
+                            <img src="https://www.7up.com/images/social-media/socialIcons_x.png" class="ms-2" width="28">
+                            <img src="	https://www.7up.com/images/social-media/socialIcons_youtube.png" class="ms-2" width="28">
+                            <img src="	https://www.7up.com/images/social-media/socialIcons_pinterest.png" class="ms-2" width="28">
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <ul>
-                <li>
-                    <a>Products</a>
-                </li>
-                <li>
-                    <a>Recipes</a>
-                </li>
-                <li>
-                    <a>stores</a>
-                </li>
-                <li class="social-img">
-                    <img src="	https://www.7up.com/images/social-media/socialIcons_facebook.png">
-                    <img src="	https://www.7up.com/images/social-media/socialIcons_instagram.png">
-                    <img src="https://www.7up.com/images/social-media/socialIcons_tiktok.png">
-                    <img src="https://www.7up.com/images/social-media/socialIcons_x.png">
-                    <img src="	https://www.7up.com/images/social-media/socialIcons_youtube.png">
-                    <img src="	https://www.7up.com/images/social-media/socialIcons_pinterest.png">
-                </li>
-            </ul>
-        </div>
+        </nav>
     </header>
     <main>
-        <section class="new-7up-banner">
+        <section class="new-7up-banner d-flex flex-column justify-content-center text-white">
             <div class="text-banner">
                 <h1>
                     A vacation for
                     <br>
                     your taste buds
                 </h1>
-                <a>Learn More</a>
+                <a class="btn-outline-light text-white rounded-pill text-decoration-none">Learn More</a>
             </div>
         </section>
-        <section class="recipes-banner">
-            <div class="content-text">
-                <h1>Recipes</h1>
-                <p>Bake, shake, and stir some uptimism into your day.</p>
-                <a>View Recipes</a>
+        <section class="recipes-banner d-flex align-items-center">
+            <div class="bg-opacity-75 rounded-pill p-4 text-center text-white mx-auto" style="max-width: 45%; background-color: rgba(10, 91, 43, 0.8);">
+                <h1 class="text-uppercase">Recipes</h1>
+                <p class="mb-3">Bake, shake, and stir some uptimism into your day.</p>
+                <a class="btn btn-outline-light rounded-pill">View Recipes</a>
             </div>
         </section>
-        <section class="flavours-banner">
-            <div class="content-text">
-                <h1>Store Locator</h1>
-                <p>Find your favorite flavors of uptimism and keep your glass half-full.</p>
-                <a>Find Products</a>
+        <section class="flavours-banner d-flex align-items-center">
+            <div class="bg-opacity-75 rounded-pill p-4 text-center text-white mx-auto" style="max-width: 45%; background-color: rgba(10, 91, 43, 0.8);">
+                <h1 class="text-uppercase">Store Locator</h1>
+                <p class="mb-3">Find your favorite flavors of uptimism and keep your glass half-full.</p>
+                <a class="btn btn-outline-light rounded-pill">Find Products</a>
             </div>
         </section>
     </main>
     <footer>
-        <div class="footer-1">
-            <ul>
-                <li><a>Privacy Policy</a></li>
-                <li><a>CA Notice at Collection</a></li>
-                <li><a>Do Not Sell or Share My Personal Information</a></li>
-                <li><a>Terms of Use</a></li>
-                <li><a>Accessibility</a></li>
-                <li><a>Contact</a></li>
-                <li><a>FAQ</a></li> 
-                <li><a>Careers</a></li>
+        <div class="bg-secondary text-white text-center py-3">
+            <ul class="list-inline mb-2">
+                <li class="list-inline-item"><a>Privacy Policy</a></li>
+                <li class="list-inline-item"><a>CA Notice at Collection</a></li>
+                <li class="list-inline-item"><a>Do Not Sell or Share My Personal Information</a></li>
+                <li class="list-inline-item"><a>Terms of Use</a></li>
+                <li class="list-inline-item"><a>Accessibility</a></li>
+                <li class="list-inline-item"><a>Contact</a></li>
+                <li class="list-inline-item"><a>FAQ</a></li> 
+                <li class="list-inline-item"><a>Careers</a></li>
             </ul>
-            <p>7UP and BE UPTIMISTIC are trademarks of Dr Pepper/Seven Up, Inc. © 2024 Dr Pepper/Seven Up, Inc.</p>
+            <p class="small mb-0">7UP and BE UPTIMISTIC are trademarks of Dr Pepper/Seven Up, Inc. © 2024 Dr Pepper/Seven Up, Inc.</p>
         </div>
+
+        <!-- For Mobile view
+        <nav class="navbar-expand-md collapse navbar-collapse">
+            <div class="container-fluid">
+                <div class="col-12 col-md-6">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a>Privacy Policy</a></li>
+                        <li class="nav-item"><a>CA Notice at Collection</a></li>
+                        <li class="nav-item"><a>Do Not Sell or Share My Personal Information</a></li>
+                        <li class="nav-item"><a>Terms of Use</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a>Privacy Policy</a></li>
+                        <li class="nav-item"><a>CA Notice at Collection</a></li>
+                        <li class="nav-item"><a>Do Not Sell or Share My Personal Information</a></li>
+                        <li class="nav-item"><a>Terms of Use</a></li>
+                    </ul>
+                </div>
+                <p>7UP and BE UPTIMISTIC are trademarks of Dr Pepper/Seven Up, Inc. © 2024 Dr Pepper/Seven Up, Inc.</p>
+            </div>
+        </nav> -->
+
     </footer>
+
+    <!--Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="/js/bootstrap.js"></script>
+
 </body>
 </html>
