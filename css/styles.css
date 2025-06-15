@@ -16,7 +16,7 @@ body{
     /* border-bottom: 1px solid #ffff;
     align-items: center; */
 }
-.nav-logo{
+/* .nav-logo{
     width: 100px;
     height: 90px;
     padding-top: 20px;
@@ -25,7 +25,7 @@ body{
 .nav-logo img{
     width: 84.7px;
     height: 75.14px;
-}
+} */
 /* .navbar ul{
     display: flex;
     width: 100%;
@@ -175,8 +175,7 @@ body{
     position: absolute;
     left: 50%;
     bottom: 20px;
-    top: auto;
-    transform: translateX(-50%);
+    transform: translateX(-50%) translateY(25%);
     text-align: center;
     width: 90%;
   }
